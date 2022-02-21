@@ -491,6 +491,19 @@ body{
         position: absolute;
         /* background-color: #fff1; */
     }
+    .mid-2 {
+        height: 200px;
+        width: 490px;
+        position: absolute;
+        left: 60%;
+        overflow: scroll;
+    }
+    .mid-2 .img{
+        height: 110px;
+        width: 160px;
+        position: absolute;
+        top: 50%;
+    }
     .center{
         width: 139%;
         /* background-color: #fff1; */
