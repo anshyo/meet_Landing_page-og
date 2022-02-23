@@ -484,12 +484,11 @@ body{
         left: 50%;
     }
 }
-@media (max-width:500px) , (max-height:1000px){
+@media (max-width:500px) and (max-height:1000px){
     .head{
         height: 15%;
         width: 119%;
         position: absolute;
-        /* background-color: #fff1; */
     }
     .mid-2 {
         height: 200px;
@@ -506,12 +505,10 @@ body{
     }
     .center{
         width: 139%;
-        /* background-color: #fff1; */
         position: absolute;
     }
     .center .heading{
         left: 56%;
-        /* background-color: #fff1; */
     }
     .center h2{
         left: 56%;
@@ -524,20 +521,17 @@ body{
         left: 58%;
     }
     .mid-3{
-        /* background-color: #fff1; */
         left: 50%;
         width: 139%;
     }
     .mid-3 h2{
         width: 250px;
         left: 56%;
-        /* background-color: #fff1; */
         text-align: center;
     }
     .mid-3 h1{
         width: 350px;
         left: 56%;
-        /* background-color: #fff1; */
         text-align: center;
     }
     .mid-3 p{
@@ -563,58 +557,5 @@ body{
     .foot .btns{
         left: 56%;
         top: 75%;
-    }
-}
-@media (min-height:500px) and (max-height:800px), (min-width:500px) and (max-width:1100px), (orientation:landscape) {
-    .center .heading{
-        text-align: left;
-        transform: translate(-0%,-50%);
-        left: 18%;
-        top: 50%;
-        /* background-color: #fff1; */
-    }
-    .center h2{
-        text-align: left;
-        transform: translate(-0%,-50%);
-        left: 70%;
-        top: 40%;
-    }
-    .center .bnt{
-        transform: translate(-0%,-50%) scale(0.7);
-        left: 75%;
-        top: 65%;
-    }
-    .mid-2{
-        left: 58%;
-    }
-    .mid-3 h2{
-        text-align: left;
-        left: 20%;
-        transform: translate(-0%,-50%);
-    }
-    .mid-3 h1{
-        text-align: left;
-        left: 18%;
-        top: 60%;
-        transform: translate(-0%,-50%);
-    }
-    .mid-3 p{
-        text-align: left;
-        left: 60%;
-        top: 50%;
-        transform: translate(-0%,-50%);
-    }
-    .foot h1{
-        text-align: left;
-        top: 50%;
-        left: 28%;
-    }
-    .foot p{
-        text-align: left;
-    }
-    .foot .btns{
-        top: 50%;
-        left: 85%;
-        transform: translate(-50%,-50%) scale(0.7);
     }
 }
