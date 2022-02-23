@@ -30,11 +30,21 @@ body{
     transform: translate(-50%,-50%);
     top: 33%;
     left: 25%;
+    animation: dot 3s infinite;
 }
 .head .logo .d{
     background-color: rgb(0, 128, 128);
     top: 67%;
     left: 13%;
+    animation-delay: -1.5s;
+}
+@keyframes dot {
+    0%,100%{
+        transform: translate(-50%,-50%) translateY(-1px);
+    }
+    50%{
+        transform: translate(-50%,-50%) translateY(1px);
+    }
 }
 .head .logo h1{
     font-size: 30px;
